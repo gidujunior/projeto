@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Pronto Socorro - Guiné-Bissau</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .menu button {
+            width: 80%;
+            padding: 15px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .menu button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>App de Pronto Socorro - Guiné-Bissau</h1>
+</header>
+
+<section>
+    <h2>Selecione um Serviço</h2>
+    <div class="menu">
+        <button onclick="alert('Serviço de Corpos de Bombeiros (CB) acionado!')">Corpos de Bombeiros (CB)</button>
+        <button onclick="alert('Serviço de Polícia Civil (PC) acionado!')">Polícia Civil (PC)</button>
+        <button onclick="alert('Serviço de Pronto Atendimento Hospitalar acionado!')">Pronto Atendimento Hospitalar</button>
+        <button onclick="alert('Denúncia sobre Maus-Tratos a Pessoas com Deficiência registrada!')">Denúncia Maus-Tratos (PCD)</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Serviços de Pronto Socorro - Guiné-Bissau</p>
+</footer>
+
+</body>
+</html>
